@@ -814,8 +814,8 @@
         <div class="exp-sub">Secretaria da Saúde do Ceará · Alocação</div>
         <ul class="exp-desc">
           <li>Mantive e evoluí dois sistemas legados de missão crítica (JSF 1.2, Java 8) utilizados por equipes administrativas e hospitalares do Estado.</li>
-          <li>Corrigi mais de 15 inconsistências em módulos de cadastro e auditoria, reduzindo ~10% nas reclamações de usuários.</li>
-          <li>Desenvolvi página de auditoria interna com geração de relatórios via JasperReports, economizando ~3 horas por ciclo de auditoria.</li>
+          <li>Corrigi mais de 15 inconsistências em módulos de cadastro e auditoria, resultando em ~10% de redução nas reclamações de usuários.</li>
+          <li>Desenvolvi página web para auditoria interna com geração de relatórios via JasperReports, economizando ~3 horas por ciclo de auditoria.</li>
           <li>Integrei controle de versão de banco via Flyway, eliminando inconsistências de schema entre ambientes.</li>
         </ul>
         <div class="exp-tags">
@@ -838,11 +838,15 @@
         <div class="exp-role">Desenvolvedor Backend</div>
         <div class="exp-sub">Projetos para setor público municipal</div>
         <ul class="exp-desc">
-          <li>Desenvolvi o sistema de Diárias da Ematerce do zero até a produção, eliminando controle manual em planilhas com Spring Boot e PostgreSQL.</li>
-          <li>Identifiquei e corrigi vulnerabilidade crítica de vazamento de dados em arquitetura multi-tenancy, protegendo todos os clientes antes da produção.</li>
-          <li>Implementei módulos de marketplace agrícola (Página do Produtor e Avaliações) dentro do prazo do sprint.</li>
-          <li>Criei suíte de testes unitários com JUnit e integrei SonarQube ao pipeline CI/CD, zerando regressões nos sprints seguintes.</li>
-          <li>Conduzi análise técnica do Resolva Já e propus migração de categorias estáticas para dinâmicas, reduzindo acoplamento.</li>
+          <li>Desenvolvi o sistema de Diárias da Ematerce do zero até a produção, eliminando controle manual em planilhas: implementei fluxo completo de solicitação, aprovação por status, controle de contas orçamentárias e vinculação automática de portarias com Spring Boot, APIs REST e PostgreSQL.</li>
+          <li>Conduzi análise técnica do Resolva Já (marketplace white label), mapeei o sistema legado e propus ao tech lead a migração de categorias estáticas para dinâmicas com referência de imagens via MinIO — reduzindo acoplamento e viabilizando evolução independente do catálogo.</li>
+          <li>Evolui a modelagem do banco do Resolva Já, adicionei colunas para referência de imagens (MinIO) e desenhei estratégia de agendamento entre contratante e prestador com reuso de tabela existente, evitando retrabalho de migração.</li>
+          <li>Implementei módulos de marketplace agrícola (Página do Produtor e Avaliações de Produtos) com Spring Boot e APIs REST, entregando vitrine digital para produtores rurais dentro do prazo do sprint.</li>
+          <li>Identifiquei e corrigi vulnerabilidade crítica de vazamento de dados em arquitetura multi-tenancy, protegendo os dados de todos os clientes antes da exposição em produção.</li>
+          <li>Implementei segurança com Spring Security + JWT (login, validação de token e claims) e configurei Keycloak, apoiando integrações de validação para consumo de APIs externas.</li>
+          <li>Criei suíte de testes unitários com JUnit cobrindo fluxos críticos de aprovação e integrei SonarQube ao pipeline GitLab CI/CD, zerando regressões nos sprints seguintes.</li>
+          <li>Configurei ambientes Docker com paridade entre desenvolvimento e produção, reduzindo erros de ambiente nos deploys da equipe.</li>
+          <li>Organizei histórias e tasks no board junto ao PO, distribuindo atividades entre backend e frontend em sprints quinzenais.</li>
         </ul>
         <div class="exp-tags">
           <span class="exp-tag">Java 17</span>
